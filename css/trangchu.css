@@ -1,0 +1,207 @@
+
+body{
+    margin:-5px 0px 0px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position: fixed;
+    background: white;  
+}
+.header-top{
+    height:50px;
+    width:100%;
+    text-decoration: none;
+    background-color: rgb(236 152 137);;
+    text-align: center;
+    padding: 0px 17px;
+
+}
+.header-top-align a {
+    margin:10px 0px;
+    text-decoration: none;
+    color:#1b0303;
+    font-weight: 600;
+    font-size: 24px;
+}
+.header-top-align{
+    height: 50px;
+    padding: 10px 0;
+}
+.header-between{
+    display: flex;
+    height:62px;
+    padding: 0px 68px;
+}
+.header-phone{
+    display: flex;
+    margin: 22px 6px;
+}
+.phone p{
+    margin: 0px 5px;
+    font-weight: bold;
+}
+.logo img{
+    width: 95px;
+    margin-left: 16px;
+}
+.menu-item a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+    padding:0px 25px;
+}
+
+.top-menu ul{
+    list-style: none;
+    display: flex;
+    margin:33px 0px;
+}
+.top-menu ul.sub{
+    margin:0px;
+}
+.menu-item:hover >a{
+    color:#9b3434;
+}
+ul.sub-menu{ margin: 0px ;}
+ul.sub-menu a{
+    z-index: 999;
+    margin: 0;
+    padding: 10px 2px;
+    width: 220px;
+    float: left;
+   background: #faf8f8;
+    border: 1px solid #ddd;
+}
+ul.sub-menu a:hover{
+    background: rgb(236 152 137);
+}
+li.sub{
+     position: relative;}
+
+ul.sub-menu{
+     position: absolute;/*ddinh vi 1 phan tu 1 gia tri tuyet doi*/
+      display: none; }
+
+li.sub:hover >ul.sub-menu{
+    display: block;}
+    
+li.sub:hover > a{
+    display: block;
+}
+.list-icon{
+    padding-top: 28px;
+    padding-left:14px;
+    border: 20px ;   
+}
+.input-search{
+    width:250px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-width: 2px ;
+    border-bottom-color:#000;
+}
+.cop{
+    padding: 30px 8px;
+}
+.banner video{
+    width: 70%;
+    margin: 10px 0px;
+}
+.banner img{
+    width:100%;
+    margin-top: 138px;
+}
+.video-container{
+    text-align: center;
+}
+
+fieldset{
+    width:50px;
+}
+
+.sale img{
+    width:280px;
+    padding:5px;
+    
+}
+.sale a{
+    text-decoration: none;
+    color:#000;
+}
+.sale{
+    border: 1px solid #ddd;
+    max-width: 410px;
+    margin-bottom: 19px;
+    margin-left: 20px;
+}
+.two{
+    display: flex;
+    margin: 10px 30px 20px;
+}
+.man img{
+    max-width: 320px;
+    width: 250px;
+    margin-right:20px;
+    padding-bottom: 30px;
+}
+.introduce{
+    padding: 0px 10px;
+}
+
+.next-last{
+    display: flex;
+    margin: 0px 66px;
+}
+.information{
+    padding: 0 15%;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.font{
+    margin-bottom: 18px;
+}
+.font a{
+    text-decoration: none;
+    color:#000000;
+}
+footer{
+    text-align: center;
+   padding-bottom: 20px;
+   color:rgb(242, 225, 225);
+    background-color: #504c4c;;
+
+}
+footer a{
+    color:rgb(242, 225, 225);
+}
+@media(max-width:700px)
+{
+    header{
+        width:625px;  
+        position: static;  
+    }
+    .header-between{
+        width:500px;
+        display: block;
+      
+    }
+    .top-menu .menu-page-menu{
+        display: block;
+    }
+    .banner img{
+        width:500px;
+        margin-top: 200px;
+    }
+    .two{
+        display: block;
+    }
+}
+
+
+
+
